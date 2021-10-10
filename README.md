@@ -30,7 +30,8 @@ This is an example of the ticket diplay board when there are less than 16 open t
 
 
 ## Daily Summary Report
-![DailyReportExample](https://user-images.githubusercontent.com/55816533/136676720-37f924b7-e569-4b33-9a05-7bac1e200509.JPG)
+![DailyReportExample1](https://user-images.githubusercontent.com/55816533/136676888-deb78002-13c0-4094-960a-a95fdcb6237c.jpg)
+
 ### About
 This is a very simply additional program that ties into the main ticket dsiplay board, and utilizes BMC's Track-IT API.
 
