@@ -22,9 +22,9 @@ This is an example of the ticket diplay board when there are more than 15 open t
 This is an example of the ticket display board when there are less than 16 open tickets to display.
 
 ### About
-1. First, the program will try to use the saved bearer token from the "authToken.txt" file. If API access is granted then continue, if access is denied then reauthorize and save new token to "authToken.txt".
-2. Second, grab the ticket number saved in "firstScan.txt" and check if that ticket is open or closed. If it is open then continue normally. If it is closed then continue to iterate through tickets until you find the next open ticket. Save this ticket number in "firstScan.txt".
-3. Third, scan through tickets starting at "firstScan" up until there are 15 tickets in a row that do not exist. Terminate scan loop after this. All tickets are svaed into ticket objects.
+1. The program will try to use the saved bearer token from the "authToken.txt" file. If API access is granted then continue, if access is denied then reauthorize and save new token to "authToken.txt".
+2. Grab the ticket number saved in "firstScan.txt" and check if that ticket is open or closed. If it is open then continue normally. If it is closed then continue to iterate through tickets until you find the next open ticket. Save this ticket number in "firstScan.txt".
+3. Scan through tickets starting at "firstScan" up until there are 15 tickets in a row that do not exist. Terminate scan loop after this. All tickets are saved into ticket objects.
 4. Now for all gathered tickets simply use tkinter and display them in the desired format.
 5. Rescan every 5 minutes. Newly scanned tickets are stored in objects prior to clearing the screen, to ensure minimal downtime of ticket display.
 
