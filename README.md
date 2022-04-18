@@ -33,7 +33,7 @@ This is an example of the ticket display board when there are less than 16 open 
 ![DailyReportExample1](https://user-images.githubusercontent.com/55816533/136676888-deb78002-13c0-4094-960a-a95fdcb6237c.jpg)
 
 ### About
-This is a very simply additional program that ties into the main ticket dsiplay board, and utilizes BMC's Track-IT API.
+This is a very simply additional program that ties into the main ticket display board, and utilizes BMC's Track-IT API.
 
 At 11:00pm this script will run via a cronjob on our department's automation server where it gathers 3 things:
 - Today's closed tickets
