@@ -19,7 +19,7 @@ This is an example of the ticket diplay board when there are more than 15 open t
 
 ### <= 15 Open Tickets
 ![LessThan16_TicketDisplay1](https://user-images.githubusercontent.com/55816533/136676443-371f8747-6f92-4ecc-84b3-d3da1ae5b839.jpg)
-This is an example of the ticket diplay board when there are less than 16 open tickets to display.
+This is an example of the ticket display board when there are less than 16 open tickets to display.
 
 ### About
 1. First, the program will try to use the saved bearer token from the "authToken.txt" file. If API access is granted then continue, if access is denied then reauthorize and save new token to "authToken.txt".
