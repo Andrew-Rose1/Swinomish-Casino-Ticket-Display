@@ -1,6 +1,6 @@
 # Swinomish Casino & Lodge IT Department Ticket Display
 This was a program created to display our IT Department's open help desk tickets. It uses python and BMC's API for their application, Track-It.
-We ran this program on a rasberry pi connected to a TV in the IT Department's office.
+We ran this program on a raspberry pi connected to a TV in the IT Department's office.
 
 In addition to the main display board, I have also created a daily summary report that utilizies the Track-It API. More about this below.
 
