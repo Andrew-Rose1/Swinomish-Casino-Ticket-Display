@@ -102,12 +102,12 @@ def run():
     try:
         inactiveList = gatherTickets(db)
 
-        port = 25  # For starttls
+        port = 25 
         smtp_server = "internal.swinomishcasino.com"
         sender_email = "dbmail@swinomishcasino.com"
         sender_user = "NLC\dbmail"
         receiver_email = "it@swinomishcasino.com"
-        password = "Casino01"
+        password = "*****"
 
         subject = "[Track-It] Weekly Inactive Ticket Report"
         body = """       --- Track-It! Inactive Tickets ---
